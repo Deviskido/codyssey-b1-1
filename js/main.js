@@ -261,7 +261,11 @@ $('#contact-form').addEventListener('submit', (event) => {
 
   $('#form-status').textContent = 'Success! Your note is valid. This demo has not sent a message.';
 });
+
+//year
 $('#year').textContent = new Date().getFullYear();
+
+//typing effect for the hero section
 const phrase = 'thoughtful interfaces.';
 if (reducedMotion.matches) $('#typing').textContent = phrase;
 else {
