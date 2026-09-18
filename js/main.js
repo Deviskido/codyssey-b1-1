@@ -248,18 +248,16 @@ fields.forEach((field) => {
   });
 });
 $('#contact-form').addEventListener('submit', (event) => {
-  event.preventDefault();
   fields.forEach(validate);
 
   const invalid = fields.find((field) => state.errors[field]);
 
   if (invalid) {
+    event.preventDefault();
     $('#form-status').textContent = 'Please check the highlighted fields and try again.';
     $(`#${invalid}`).focus();
     return;
   }
-
-  $('#form-status').textContent = 'Success! Your note is valid. This demo has not sent a message.';
 });
 
 //year
