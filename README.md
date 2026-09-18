@@ -4,7 +4,7 @@ A responsive portfolio built with semantic HTML, CSS, and vanilla JavaScript. It
 
 Repository: https://github.com/Deviskido/codyssey-b1-1
 
-Intended GitHub Pages URL: https://deviskido.github.io/codyssey-b1-1/ — deployment is pending; this URL has not been verified as serving this implementation.
+GitHub Pages URL: https://deviskido.github.io/codyssey-b1-1/ — deployment is in progress as of 2026-09-18.
 
 ## Run locally
 
